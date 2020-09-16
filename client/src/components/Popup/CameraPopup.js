@@ -127,7 +127,7 @@ class CameraPopup extends React.Component {
           style={{ width: 'auto' }}
         >
           <img
-            className="delete__icon"
+            className="del__icon"
             onClick={() => this.props.makeVisible2({ display: 'none' })}
             src="/img/icon/close.svg"
             alt=""

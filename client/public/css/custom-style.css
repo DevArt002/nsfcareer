@@ -594,31 +594,18 @@ button.btn.button-yes {
   font-weight: 900 !important;
   line-height: 32px !important;
 }
+
 .camera-box {
   height: auto !important;
-  padding: 0px 8px;
-  background-color: #f8f9fa !important;
   box-shadow: inherit !important;
-  /* width: 42% !important; */
-  padding-bottom: 7px !important;
-  position: fixed;
-  color: #fff;
-  text-align: center;
-  /*    top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%);*/
-  animation: fadeIn 1s, slideIn 0.8s linear;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-flow: column;
+  z-index: 2;
 }
+
 .delete__icon {
   z-index: 1;
 }
 
-.camera-modal .delete__icon {
+.camera-modal .del__icon {
   position: absolute;
   z-index: 1;
   transform: translate(50%, -50%);
